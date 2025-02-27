@@ -253,17 +253,12 @@
 <div class="project-info">
     <a href="https://github.com/SahanaDil/Projects/blob/main/Facial_Expression_Recognition_with_PyTorch.ipynb" target="_blank" rel="noopener noreferrer">Facial Expression Recognition</a>
 </div>
-
-
-                
-            </div>
         </div>
     </section>
 
     <section id="skills" style="text-align: center;">
         <h2 class="section-title">Skills</h2>
-        <div class="skills-container" style="display: flex; flex-wrap: wrap; justify-content: center>
-           
+        <div class="skills-container" >
             <span class="skill">HTML5/CSS3/Javascript</span>
             <span class="skill">Python</span>
             <span class="skill">Machine Learning</span>
@@ -277,15 +272,15 @@
 
     <section id="contact">
         <h2 class="section-title">Contact Me</h2>
-        <form class="contact-form" action="https://formsubmit.co/itssahanadillibabu@gmail.com" method="POST>
+        <form class="contact-form" action="https://formsubmit.co/itssahanadillibabu@gmail.com" method="POST">
             <div class="form-group">
-                <input type="text" placeholder="Name" required>
+                <input type="text" name = "name" placeholder="Name" required>
             </div>
             <div class="form-group">
-                <input type="email" placeholder="Email" required>
+                <input type="email" name = "email" placeholder="Email" required>
             </div>
             <div class="form-group">
-                <textarea placeholder="Message" rows="5" required></textarea>
+                <textarea name = "message" placeholder="Message" rows="5" required></textarea>
             </div>
             <button type="submit">Send Message</button>
         </form>
@@ -297,7 +292,7 @@
             <a href="#"><i class="fab fa-linkedin"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025. All rights reserved.</p>
          <p>Visitor Count:</p>
     <img src="https://profile-counter.glitch.me/sahanadil/count.svg" alt="Visitor Count" />
     </footer>
@@ -313,12 +308,7 @@
             });
         });
 
-        // Form submission
-        document.querySelector('.contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! I will respond shortly.');
-            this.reset();
-        });
+
     </script>
 </body>
 </html>
